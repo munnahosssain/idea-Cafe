@@ -1,0 +1,38 @@
+[
+    {
+        "_id": "6425ce7f4f2ea9e6484b115e",
+        "title": "How to get your first job as a self-taught programmer",
+        "banner": "http://placehold.it/32x32",
+        "picture": "http://placehold.it/32x32",
+        "ReadTime": 13,
+        "authorName": "Trujillo Merritt",
+        "time": "2023-03-31"
+    },
+    {
+        "_id": "6425ce7f3f21d0747217d0d7",
+        "title": "How to get your first job as a self-taught programmer",
+        "banner": "http://placehold.it/32x32",
+        "picture": "http://placehold.it/32x32",
+        "ReadTime": 7,
+        "authorName": "Campos Blackburn",
+        "time": "2023-03-31"
+    },
+    {
+        "_id": "6425ce7f09eee16167e3b663",
+        "title": "How to get your first job as a self-taught programmer",
+        "banner": "http://placehold.it/32x32",
+        "picture": "http://placehold.it/32x32",
+        "ReadTime": 10,
+        "authorName": "Noelle Franks",
+        "time": "2023-03-31"
+    },
+    {
+        "_id": "6425ce7f4b7d8b595dc98b66",
+        "title": "How to get your first job as a self-taught programmer",
+        "banner": "http://placehold.it/32x32",
+        "picture": "http://placehold.it/32x32",
+        "ReadTime": 9,
+        "authorName": "Ellis Nielsen",
+        "time": "2023-03-31"
+    }
+]
