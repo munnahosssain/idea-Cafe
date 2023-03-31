@@ -5,6 +5,7 @@ import Cart from "../Cart/Cart";
 const Home = () => {
   const [blogs, setBlogs] = useState([]);
   const [cart, setCart] = useState([]);
+  const [count, setCount] = useState([]);
   useEffect(() => {
     fetch("data.json")
       .then(res => res.json())
@@ -16,15 +17,25 @@ const Home = () => {
     setCart(newCart);
   };
 
+  const addBookMark = counts => {
+    const newCount = [...count, counts];
+    setCount(newCount);
+  };
+
   return (
     <div className="lg:flex flex-row">
       <div className="basis-2/2 grow lg:h-14">
         {blogs.map(blog => (
-          <Blog key={blog._id} blog={blog} addReadingTime={addReadingTime} />
+          <Blog
+            key={blog._id}
+            blog={blog}
+            addReadingTime={addReadingTime}
+            addBookMark={addBookMark}
+          />
         ))}
       </div>
       <div className="basis-1/2">
-        <Cart cart={cart} />
+        <Cart cart={cart} count={count} />
       </div>
     </div>
   );

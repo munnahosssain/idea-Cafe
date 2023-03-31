@@ -5,9 +5,11 @@ import { faBookmark } from "@fortawesome/free-solid-svg-icons";
 
 const Blog = props => {
   // console.log(props.blog);
+  const addBookMark = props.addBookMark;
   const addReadingTime = props.addReadingTime;
   const { title, banner, picture, authorName, time, readTime } = props.blog;
   const { tagOne, tagTwo, tagThree } = props.blog?.tagLine[0];
+
   return (
     <div className="w-full shadow-xl p-4">
       <figure>
@@ -24,6 +26,7 @@ const Blog = props => {
         <div className="">
           {readTime} min read{" "}
           <FontAwesomeIcon
+            onClick={() => addBookMark(props.blog)}
             className="cursor-pointer"
             icon={faBookmark}
             size="lg"
