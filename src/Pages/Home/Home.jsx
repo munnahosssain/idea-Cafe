@@ -34,7 +34,7 @@ const Home = () => {
           />
         ))}
       </div>
-      <div className="basis-1/2">
+      <div className="basis-1/2 mt-4">
         <Cart cart={cart} count={count} />
       </div>
     </div>
