@@ -3,8 +3,10 @@ import logo from "../images/LOGO.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBookmark } from "@fortawesome/free-solid-svg-icons";
 
-const Blog = (props, addReadingTime) => {
-  const { title, banner, picture, authorName, time, ReadTime } = props.blog;
+const Blog = props => {
+  // console.log(props.blog);
+  const addReadingTime = props.addReadingTime;
+  const { title, banner, picture, authorName, time, readTime } = props.blog;
   const { tagOne, tagTwo, tagThree } = props.blog?.tagLine[0];
   return (
     <div className="w-full shadow-xl p-4">
@@ -20,7 +22,7 @@ const Blog = (props, addReadingTime) => {
           </div>
         </div>
         <div className="">
-          {ReadTime} min read{" "}
+          {readTime} min read{" "}
           <FontAwesomeIcon
             className="cursor-pointer"
             icon={faBookmark}
@@ -35,7 +37,7 @@ const Blog = (props, addReadingTime) => {
         <p>{tagThree}</p>
       </div>
       <button
-        onClick={() => addReadingTime()}
+        onClick={() => addReadingTime(props.blog)}
         className="font-semibold underline text-start flex"
       >
         Mark as red

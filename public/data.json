@@ -4,14 +4,14 @@
         "title": "How to get your first job as a self-taught programmer",
         "banner": "https://as2.ftcdn.net/v2/jpg/02/83/46/33/1000_F_283463385_mfnrx6RPU3BqObhVuVjYZjeZ5pegE7xq.jpg",
         "picture": "http://placehold.it/32x32",
-        "ReadTime": 13,
+        "readTime": 13,
         "authorName": "Trujillo Merritt",
         "time": "2023-03-31",
+        "quantity": 0,
         "tagLine": [
             {
                 "tagOne": "#beginners ",
-                "tagTwo": "#programming ",
-                "tagThree": "#front end"
+                "tagTwo": "#programming "
             }
         ]
     },
@@ -20,9 +20,10 @@
         "title": "How to get your first job as a self-taught programmer",
         "banner": "https://as2.ftcdn.net/v2/jpg/03/08/69/75/1000_F_308697506_9dsBYHXm9FwuW0qcEqimAEXUvzTwfzwe.jpg",
         "picture": "http://placehold.it/32x32",
-        "ReadTime": 7,
+        "readTime": 7,
         "authorName": "Campos Blackburn",
         "time": "2023-03-31",
+        "quantity": 0,
         "tagLine": [
             {
                 "tagOne": "#beginners ",
@@ -36,13 +37,13 @@
         "title": "How to get your first job as a self-taught programmer",
         "banner": "https://img.freepik.com/premium-photo/professional-team-programmer-working-project-software-development-computer-it-company_229060-90.jpg?w=1380",
         "picture": "http://placehold.it/32x32",
-        "ReadTime": 10,
+        "readTime": 10,
         "authorName": "Noelle Franks",
         "time": "2023-03-31",
+        "quantity": 0,
         "tagLine": [
             {
                 "tagOne": "#beginners ",
-                "tagTwo": "#programming ",
                 "tagThree": "#front end"
             }
         ]
@@ -52,12 +53,12 @@
         "title": "How to get your first job as a self-taught programmer",
         "banner": "https://img.freepik.com/premium-photo/developing-programming-coding-technologies-with-website-design-virtual-diagram_103164-375.jpg?w=1380",
         "picture": "http://placehold.it/32x32",
-        "ReadTime": 9,
+        "readTime": 9,
         "authorName": "Ellis Nielsen",
         "time": "2023-03-31",
+        "quantity": 0,
         "tagLine": [
             {
-                "tagOne": "#beginners ",
                 "tagTwo": "#programming ",
                 "tagThree": "#front end"
             }
