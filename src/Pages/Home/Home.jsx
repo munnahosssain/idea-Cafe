@@ -10,13 +10,15 @@ const Home = () => {
       .then(data => setBlogs(data));
   }, []);
 
-  // console.log(blogs);
+  const addReadingTime = () => {
+    console.log("connected");
+  };
 
   return (
     <div className="lg:flex flex-row">
       <div className="basis-2/2 grow lg:h-14">
         {blogs.map(blog => (
-          <Blog key={blog._id} blog={blog} />
+          <Blog key={blog._id} blog={blog} addReadingTime={addReadingTime} />
         ))}
       </div>
       <div className="basis-1/2">
