@@ -6,7 +6,7 @@ const Blog = props => {
   const addBookMark = props.addBookMark;
   const addReadingTime = props.addReadingTime;
   const { title, banner, picture, authorName, time, readTime } = props.blog;
-  const { tagOne, tagTwo, tagThree } = props.blog?.tagLine[0];
+  const { tagOne, tagTwo, tagThree } = props?.blog?.tagLine[0];
 
   return (
     <div className="w-full shadow-xl p-4">
