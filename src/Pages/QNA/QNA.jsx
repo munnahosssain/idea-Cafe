@@ -37,7 +37,7 @@ const QNA = () => {
   return (
     <>
       {questionNAns.map(qna => (
-        <div className="collapse text-start rounded-xl mt-2">
+        <div className="collapse text-start collapse-arrow rounded-xl mt-2">
           <input type="checkbox" className="peer" />
           <div className="collapse-title bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content text-2xl font-bold">
             {qna.question}
