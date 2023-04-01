@@ -1,16 +1,10 @@
 import React from "react";
 
-const Cart = ({ cart, count }) => {
-  let quantity = 0;
+const Cart = ({ cart, count: bookmarks }) => {
   let watchTime = 0;
 
   for (const time of cart) {
     watchTime = watchTime + time.readTime;
-  }
-
-  for (const data of count) {
-    data.quantity = data.quantity || 1;
-    quantity = quantity + data.quantity;
   }
 
   return (
@@ -19,10 +13,12 @@ const Cart = ({ cart, count }) => {
         Spent time on read: {watchTime} min
       </h1>
       <div className="text-start p-6 bg-base-200 rounded-xl mt-4">
-        <h1 className="font-bold text-xl">Bookmarked Blogs : {quantity}</h1>
-        {count.map((cnt, index) => (
+        <h1 className="font-bold text-xl">
+          Bookmarked Blogs : {bookmarks.length}
+        </h1>
+        {bookmarks.map((bookmark, index) => (
           <h3 key={index} className="bg-white mt-5 rounded px-4 py-5 font-bold">
-            {cnt.title}
+            {bookmark.title}
           </h3>
         ))}
       </div>
